@@ -4,9 +4,9 @@ import tempfile
 import os
 import io
 import logging
-from lease_analyzer.pdf_parser import parse_lease_pdf
-from lease_analyzer.qa_system import LeaseQuerySystem
-from lease_analyzer.normalizer import normalize_date, normalize_currency
+from lease_doc_analyzer.pdf_parser import parse_lease_pdf
+from lease_doc_analyzer.qa_system import LeaseQuerySystem
+from lease_doc_analyzer.normalizer import normalize_date, normalize_currency
 from collections import Counter
 
 # Configure logging
