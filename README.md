@@ -19,8 +19,8 @@ This project is a sophisticated lease document analysis tool designed to automat
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/Yeshw-anth/lease_doc_analyzer
+    cd lease_doc_analyzer
     ```
 
 2.  **Install the required dependencies:**
@@ -33,7 +33,7 @@ This project is a sophisticated lease document analysis tool designed to automat
 
 1.  **Run the Streamlit application:**
     ```bash
-    python -m streamlit run lease_analyzer/app.py
+    python -m streamlit run lease_doc_analyzer/app.py
     ```
 
 2.  **Open your web browser** and navigate to the local URL provided by Streamlit (usually `http://localhost:8501`).
